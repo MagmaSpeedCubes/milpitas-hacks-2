@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Data
+public class SaveSystem
 {
     
 }
