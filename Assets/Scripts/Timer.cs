@@ -3,6 +3,7 @@ using UnityEngine;
 public class Timer : MonoBehaviour
 {
 
+    [SerializeField] private Canvas breakFocusCanvas;
     private static float seconds = 0f;
     private static Timer instance;
     private static bool active = false;
@@ -20,6 +21,12 @@ public class Timer : MonoBehaviour
     {
         if(active){
             seconds += Time.deltaTime;
+        }
+
+        if(!Application.isFocused){
+            stopTimer();
+            resetTimer();
+            CanvasHub.showCanvas(breakFocusCanvas);
         }
     }
 
