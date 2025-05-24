@@ -1254,7 +1254,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7239719b79142d48e8d7744a3af1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   breakFocusCanvas: {fileID: 0}
+=======
+  breakFocusCanvas: {fileID: 1799085886}
+>>>>>>> 959715347fc95a1a30f3d5dd989f046888d069fb
 --- !u!1 &1799085882
 GameObject:
   m_ObjectHideFlags: 0
